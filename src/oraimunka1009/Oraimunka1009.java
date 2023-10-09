@@ -10,7 +10,7 @@ public class Oraimunka1009 {
         Koord k1 = new Koord(20, 30);
         Negyzet n1 = new Negyzet(5, k1);
 
-        System.out.println(n1.allapot());
+        System.out.println(n1.toString());
 
     }
 

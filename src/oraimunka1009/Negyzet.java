@@ -36,7 +36,8 @@ public class Negyzet {
         this.n = n;
     }
 
-    public String allapot() {
+    @Override
+    public String toString() {
         return "Negyzet{a=" + getA() + ", T=" + terulet() + ", x=" + n.getX() + ", y=" + n.getY() + "}";
     }
 
