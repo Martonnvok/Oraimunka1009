@@ -35,6 +35,11 @@ public class Negyzet {
     private void setN(Koord n) {
         this.n = n;
     }
+    
+        
+    public boolean egyforma(Negyzet n){
+        return this.a == n.getA();
+    }
 
     @Override
     public String toString() {
