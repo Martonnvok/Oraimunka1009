@@ -13,7 +13,9 @@ public class Oraimunka1009 {
 
         System.out.println(n1.toString());
         System.out.println(n2.toString());
-        System.out.println(n1.egyforma(n2));
+        System.out.println(n1.equals(n2));
+        System.out.println(n1.hashCode());
+        System.out.println(n2.hashCode());
     }
 
 }
