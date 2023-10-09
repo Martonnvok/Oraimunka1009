@@ -5,11 +5,17 @@ public class Koord {
     private int x;
     private int y;
 
-    public void setX(int x) {
+    public Koord(int x, int y) {
+        setX(x);
+        setY(y);
+    }
+
+    
+    private void setX(int x) {
         this.x = x;
     }
 
-    public void setY(int y) {
+    private void setY(int y) {
         this.y = y;
     }
 

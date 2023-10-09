@@ -5,13 +5,19 @@ public class Negyzet {
     private int a;
     private Koord n;
 
+    public Negyzet(int a, Koord n) {
+        setA(a);
+        setN(n);
+    }
+
+    
     private int terulet() {
         return a * a;
     }
     
     
 
-    public void setA(int a) {
+    private void setA(int a) {
         if (1 > a) {
             a = 1;
         }
@@ -26,7 +32,7 @@ public class Negyzet {
         return n;
     }
 
-    public void setN(Koord n) {
+    private void setN(Koord n) {
         this.n = n;
     }
 
