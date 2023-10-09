@@ -40,7 +40,7 @@ public class Negyzet {
     
 
     public String allapot() {
-        return "Negyzet{a=" + getA() + ", T=" + terulet() + ", x=" + getX() + ", y=" + getY() + "}";
+        return "Negyzet{a=" + getA() + ", T=" + terulet() + "}";
     }
     
 }
