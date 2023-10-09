@@ -9,10 +9,11 @@ public class Oraimunka1009 {
 
     private static void feladat() {
         Negyzet n1 = new Negyzet();
-        n1.a = 6;
-        n1.x = 5;
-        n1.y = 7;
-        n1.allapot();
+        n1.setA(1);
+        n1.setX(20);
+        n1.setY(30);
+        System.out.println(n1.allapot());
+        
     }
     
 }
