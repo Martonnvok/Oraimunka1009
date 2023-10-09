@@ -21,8 +21,4 @@ public class Koord {
         return y;
     }
     
-    public String allapot() {
-        return "Koord{" + "x=" + x + ", y=" + y + '}';
-    }
-
 }

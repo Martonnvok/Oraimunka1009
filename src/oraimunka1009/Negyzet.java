@@ -3,12 +3,13 @@ package oraimunka1009;
 public class Negyzet {
 
     private int a;
-    private int x;
-    private int y;
+    private Koord n;
 
     private int terulet() {
         return a * a;
     }
+    
+    
 
     public void setA(int a) {
         if (1 > a) {
@@ -17,30 +18,20 @@ public class Negyzet {
         this.a = a;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-
     public int getA() {
         return a;
     }
 
-    public int getX() {
-        return x;
+    public Koord getN() {
+        return n;
     }
 
-    public int getY() {
-        return y;
+    public void setN(Koord n) {
+        this.n = n;
     }
-    
-    
 
     public String allapot() {
-        return "Negyzet{a=" + getA() + ", T=" + terulet() + "}";
+        return "Negyzet{a=" + getA() + ", T=" + terulet() + ", x=" + n.getX() + ", y=" + n.getY() + "}";
     }
-    
+
 }
