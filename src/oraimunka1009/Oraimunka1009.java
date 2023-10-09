@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package oraimunka1009;
 
-/**
- *
- * @author somogyi.a.istvan
- */
 public class Oraimunka1009 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        feladat();
+    }
+
+    private static void feladat() {
+        Negyzet n1 = new Negyzet();
+        n1.a = 6;
+        n1.x = 5;
+        n1.y = 7;
+        n1.allapot();
     }
     
 }
